@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-light">
+  <style>
+    ul {
+      list-style-type: upper-roman;
+
+    }
+
+    a {
+      margin-right: 20px;
+    }
+  </style>
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <a class="navbar-brand" href="http://localhost:4200/pages/student-home">Home</a>
+      <a class="navbar-brand" href="http://localhost:4200/pages/search">Search</a>
+      <a class="navbar-brand" href="http://localhost:4200/pages/my-account">My Account</a>
+      <a class="navbar-brand" href="#">Log out</a>
+    </ul>
+  </div>
+
+</nav>
+<h2>My Courses</h2>
+<ul class="classes" *ngFor="let entry of entryDetalis" [class.selected]="entry === selectedEntry" (click)="onSelect(entry)">
+  <li>
+    <span class="badge">{{entry.courseName}}</span>
+  </li>
+</ul>
+<app-student-details [entry]="selectedEntry"></app-student-details>

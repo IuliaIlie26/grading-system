@@ -1,0 +1,7 @@
+<div *ngIf="entry">
+
+  <h2>{{entry.courseName | uppercase}} Details</h2>
+  <div><span>Teacher: </span>{{entry.teacherName}}</div>
+  <div><span>Grade: </span>{{entry.grade}}</div>
+  <button type="button" class="button" (click)="onClick()">Drop</button>
+</div>
