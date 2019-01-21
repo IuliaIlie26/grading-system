@@ -71,6 +71,7 @@ export class HomeComponent implements OnInit {
       this.entriesLoaded = true;
     });
   }
+
   getId(entry: Entry): number {
     let id: number;
     this.courses.forEach(_course => {
@@ -84,7 +85,6 @@ export class HomeComponent implements OnInit {
   onSelect(entry: EntryDetailsStudent): void {
     this.selectedEntry = entry;
   }
-
 
   diplayCourseName(entry: Entry): string {
     let returnString: string;

@@ -16,6 +16,8 @@ import { HomeComponent } from './pages/student-home/home.component';
 import { StudentDetailsComponent } from './pages/student-details/student-details.component';
 import { SearchComponent } from './pages/search/search.component';
 import { MyAccountComponent } from './pages/my-account/my-account.component';
+import { TeacherHomeComponent } from './pages/teacher-home/teacher-home.component';
+import { TeacherDetailsComponent } from './pages/teacher-details/teacher-details.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { MyAccountComponent } from './pages/my-account/my-account.component';
     HomeComponent,
     StudentDetailsComponent,
     SearchComponent,
-    MyAccountComponent],
+    MyAccountComponent,
+    TeacherHomeComponent,
+    TeacherDetailsComponent],
   imports: [
      CommonModule,
     BrowserModule,

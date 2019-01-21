@@ -10,267 +10,42 @@
     },
     {
       "id": 2,
-      "name": "Madalin Branea",
-      "email": "madab1990@gmail.com",
-      "username": "madab",
-      "password": "madab123",
-      "isTeacher": false
-    },
-    {
-      "id": 3,
-      "name": "Doru Codoi",
-      "email": "dorucodoi@gmail.com",
-      "username": "doru.codoi",
-      "password": "doru123",
-      "isTeacher": false
-    },
-    {
-      "id": 4,
-      "name": "Marin Popescu",
-      "email": "marinp@gmail.com",
-      "username": "marin.popescu",
-      "password": "marinmarin",
-      "isTeacher": false
-    },
-    {
-      "id": 5,
-      "name": "Ana Banana",
-      "email": "anabanana@gmail.com",
-      "username": "anab",
-      "password": "anabanana",
-      "isTeacher": false
-    },
-    {
-      "id": 6,
-      "name": "Dorin Stuparu",
-      "email": "dorinstuparu@gmail.com",
-      "username": "dorinel",
-      "password": "dorin123",
-      "isTeacher": false
-    },
-    {
-      "id": 7,
-      "name": "Rares Bamac",
-      "email": "bamacr@gmail.com",
-      "username": "raresb",
-      "password": "dummy",
-      "isTeacher": false
-    },
-    {
-      "id": 8,
-      "name": "Alexandra Nan",
-      "email": "alexandranan@gmail.com",
-      "username": "alexandran",
-      "password": "etcetc",
-      "isTeacher": false
-    },
-    {
-      "id": 9,
-      "name": "Maria Popescu",
-      "email": "m.p@gmail.com",
-      "username": "mariap",
-      "password": "password",
-      "isTeacher": false
-    },
-    {
-      "id": 10,
-      "name": "Daniela Istrate",
-      "email": "istratedia@gmail.com",
-      "username": "dia_istrate",
-      "password": "parola",
-      "isTeacher": false
-    },
-    {
-      "id": 11,
       "name": "Bogadan Lupu",
       "email": "bogdan.lupu@gmail.com",
       "username": "lupu.bogdan",
       "password": "lupu123",
       "isTeacher": true
-    },
-    {
-      "id": 12,
-      "name": "Aldea Costel",
-      "email": "aldea.costel@gmail.com",
-      "username": "aldea.costel",
-      "password": "qwerty",
-      "isTeacher": true
-    },
-    {
-      "id": 13,
-      "name": "Maria Anton",
-      "email": "m.anton@gmail.com",
-      "username": "mariap",
-      "password": "password",
-      "isTeacher": true
-    },
-    {
-      "id": 14,
-      "name": "Litz",
-      "email": "litz@gmail.com",
-      "username": "litz",
-      "password": "zaq12wsx",
-      "isTeacher": true
-    },
-    {
-      "id": 15,
-      "name": "Marius B",
-      "email": "m.b@gmail.com",
-      "username": "mariusb",
-      "password": "password",
-      "isTeacher": true
-    },
-    {
-      "id": 16,
-      "name": "Dorner",
-      "email": "dorner@gmail.com",
-      "username": "dorner",
-      "password": "zaq12wsx",
-      "isTeacher": true
-    },
-    {
-      "name": "Alexandra Diaconu",
-      "userName": "ale.diaconu",
-      "passWord": "diaconu",
-      "email": "ale.diaconu@gmail.com",
-      "isTeacher": false,
-      "id": 17
     }
   ],
   "entries": [
     {
-      "id": 2,
-      "id_course": 4,
-      "id_student": 2,
-      "grade": 0
-    },
-    {
-      "id": 3,
-      "id_course": 6,
-      "id_student": 2,
-      "grade": 0
-    },
-    {
-      "id": 4,
-      "id_course": 4,
-      "id_student": 3,
-      "grade": 0
-    },
-    {
-      "id": 5,
-      "id_course": 4,
-      "id_student": 3,
-      "grade": 0
-    },
-    {
-      "id": 6,
-      "id_course": 4,
-      "id_student": 3,
-      "grade": 0
-    },
-    {
-      "id": 7,
-      "id_course": 4,
-      "id_student": 3,
-      "grade": 0
-    },
-    {
-      "id": 8,
-      "id_course": 4,
-      "id_student": 3,
-      "grade": 0
-    },
-    {
-      "id": 9,
-      "id_course": 4,
-      "id_student": 3,
-      "grade": 0
-    },
-    {
-      "id": 10,
-      "id_course": 4,
-      "id_student": 3,
-      "grade": 0
-    },
-    {
-      "id": 11,
-      "id_course": 4,
-      "id_student": 3,
-      "grade": 0
-    },
-    {
-      "id": 12,
-      "id_course": 4,
-      "id_student": 3,
-      "grade": 0
-    },
-    {
-      "id_course": 2,
-      "id_student": "2",
-      "grade": 0,
-      "id": 13
-    },
-    {
+      "id": 1,
       "id_course": 1,
-      "id_student": "1",
-      "grade": 10,
-      "id": 14
-    },
-    {
-      "id_course": 1,
-      "id_student": "2",
-      "grade": 6,
-      "id": 15
-    },
-    {
-      "id_course": 3,
-      "id_student": 0,
-      "grade": 0,
-      "id": 16
-    },
-    {
-      "id_course": 4,
-      "id_student": 0,
-      "grade": 0,
-      "id": 17
-    },
-    {
-      "id_course": 4,
       "id_student": 1,
-      "grade": 0,
-      "id": 18
+      "grade": 0
+    },
+    {
+      "id": 2,
+      "id_course": 2,
+      "id_student": 1,
+      "grade": 0
     }
   ],
   "courses": [
     {
       "id": 1,
-      "id_teacher": 11,
-      "name": "Web"
+      "id_teacher": 2,
+      "name": "Big Data"
     },
     {
       "id": 2,
-      "id_teacher": 12,
-      "name": "Programare Distribuita"
+      "id_teacher": 2,
+      "name": "Web Technologies"
     },
     {
       "id": 3,
-      "id_teacher": 13,
-      "name": "Inginerie software"
-    },
-    {
-      "id": 4,
-      "id_teacher": 14,
-      "name": "Knowledge Management"
-    },
-    {
-      "id": 5,
-      "id_teacher": 15,
-      "name": "Marketing"
-    },
-    {
-      "id": 6,
-      "id_teacher": 16,
-      "name": "Jocuri 3D"
+      "id_teacher": 2,
+      "name": "Games"
     }
   ]
 }

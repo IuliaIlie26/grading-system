@@ -3,6 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Entry } from './entry'
 import { Observable } from 'rxjs';
 import { EntryDetailsStudent } from './entry-detalis-student';
+import { EntryDetailsTeacher } from './entry-details-teacher';
 
 @Injectable()
 export class EntryService {
@@ -24,6 +25,10 @@ export class EntryService {
   }
 
   updateEntry(entry:Entry):Observable<any>{
+    return this.http.put('http://localhost:3000/entries/'+entry.id,entry);
+  }
+
+  updateEntryDetailsTeacher(entry:EntryDetailsTeacher):Observable<any>{
     return this.http.put('http://localhost:3000/entries/'+entry.id,entry);
   }
 

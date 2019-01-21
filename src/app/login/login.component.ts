@@ -36,11 +36,13 @@ export class LoginComponent implements OnInit {
 
       this.data.forEach(element => {
         if ((this.username === element.username) && (this.password === element.password)) {
-
-
           localStorage.setItem('user', JSON.stringify(element));
-          if (element.isTeacher == false)
-            this.router.navigate(['/pages/student-home'], { queryParams: element });
+          if (element.isTeacher == false) { 
+            this.router.navigate(['/pages/student-home']); 
+          }
+          else {
+            this.router.navigate(['/pages/teacher-home']);
+          }
         }
       });
 

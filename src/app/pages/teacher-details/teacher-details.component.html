@@ -1,0 +1,16 @@
+<div  *ngIf="course" class=table>
+  <h2>{{ course.name| uppercase}} Details</h2>
+  <label>Students:
+    <select class="custom-select" [(ngModel)]="teachersSelectedStudent">
+      <option *ngFor="let entry of entriesTeachers" [ngValue]="entry">{{entry.studentName}}</option>
+    </select>
+  </label>
+  <label *ngFor="let entry of entriesTeachers">Student:
+    {{entry.studentName}}, Grade: {{entry.grade}}
+  </label>
+  <fieldset *ngIf="teachersSelectedStudent != null">
+    <legend>New Grade:</legend>
+    <input type="number" [(ngModel)]="newGrade">
+    <button type="button" class="btn btn-primary" (click)="updateGrade()">Save</button>
+  </fieldset>
+</div>
